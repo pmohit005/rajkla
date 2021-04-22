@@ -176,7 +176,9 @@ nav ul, nav ol{margin:0; padding:0; list-style:none;}
 #mainav .drop::after, #mainav li li .drop::after, #breadcrumb li a::after, .sidebar nav a::after{position:absolute; font-family:"Font Awesome\ 5 Free"; font-weight:900; font-size:10px; line-height:10px;}
 
 /* Top Navigation */
-#mainav{}
+#mainav{
+	
+}
 #mainav ul{text-transform:uppercase; text-align:center;}
 #mainav ul ul{z-index:9999; position:absolute; width:180px; text-transform:none; text-align:left;}
 #mainav ul ul ul{left:180px; top:0;}
@@ -192,6 +194,7 @@ nav ul, nav ol{margin:0; padding:0; list-style:none;}
 #mainav li li .drop::after{top:15px; left:5px;}
 #mainav ul ul{visibility:hidden; opacity:0;}
 #mainav ul li:hover > ul{visibility:visible; opacity:1;}
+.navactive{ color:#FFB900 !important; border-bottom: 2px solid #FFB900;}
 
 #mainav form{display:none; margin:0; padding:0;}
 #mainav form select, #mainav form select option{display:block; cursor:pointer; outline:none;}
@@ -281,7 +284,7 @@ hr, .borderedbox{border-color:#D7D7D7;}
 label span{color:#FF0000; background-color:inherit;}
 input:focus, textarea:focus, *:required:focus{border-color:#9099AA !important;}
 
-.overlay{color:#FFFFFF; background-color:inherit;}
+.overlay{color:#FFFFFF; background-color:inherit; }
 .overlay::after{color:inherit; background-color:rgba(0,0,0,.55);}
 .overlay.light{color:#474747;}
 .overlay.light::after{background-color:rgba(255,255,255,.7);}
@@ -295,7 +298,7 @@ input:focus, textarea:focus, *:required:focus{border-color:#9099AA !important;}
 
 /* Rows */
 .row0, .row0 a{color:#FFFFFF;}
-.row1{background-color:rgba(144,153,170,.5);/* #9099AA */}
+.row1{background-color:#3f4a5cc7;/* #9099AA */}
 .row2{color:#474747; background-color:#EFEFEF;}
 .row3{color:#474747; background-color:#FFFFFF;}
 .row4{color:#DFDFDF; background-color:#3F4A5C;}
